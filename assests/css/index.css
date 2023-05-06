@@ -1,0 +1,75 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  box-sizing: inherit;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+img {
+  max-width: 100%;
+}
+section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+}
+
+.form-card {
+  background-color: hsl(0.44deg 100% 73.53%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 1000px;
+  padding: 100px 100px;
+}
+
+.title {
+  color: #ffff;
+}
+
+.title h1 {
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+form {
+  background-color: #ffff;
+  padding: 40px 30px;
+  border-radius: 5px;
+  text-align: center;
+}
+
+form input {
+  display: block;
+  padding: 10px 160px 10px 20px;
+  border-radius: 5px;
+  margin: 10px 0px;
+  border: 1px solid hsla(0, 10%, 65%, 0.2);
+}
+
+button {
+  outline: none;
+  border: none;
+  color: #ffff;
+}
+.claim-btn {
+  background-color: hsl(153.42deg 59.36% 50.78%);
+  padding: 15px 90px;
+  border-radius: 5px;
+}
+
+.free-price-btn {
+  background-color: hsl(246.84deg 31.98% 48.43%);
+  padding: 15px 90px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
